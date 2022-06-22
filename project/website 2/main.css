@@ -12,22 +12,29 @@ body {
   background: white;
   padding: 1em;
 }
+
 .navbar span {
   color: var(--primary-color);
 }
+
 .navbar nav {
   display: none;
 }
+
 .navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   place-content: space-between;
 }
+
 .navbar .logo {
   text-decoration: none;
   font-weight: bold;
   color: black;
   font-size: 1.2em;
 }
+
 .navbar .mobile-menu {
   cursor: pointer;
 }
@@ -56,11 +63,13 @@ section {
   color: grey;
   letter-spacing: 0.3em;
 }
+
 .left-col h1 {
   font-size: 2.5em;
   line-height: 1.3em;
   margin-top: 0.2em;
 }
+
 .left-col .primary-cta {
   background: var(--primary-color);
   color: white;
@@ -71,10 +80,12 @@ section {
   font-weight: bold;
   display: inline-block;
 }
+
 .left-col .watch-video-cta {
   display: block;
   margin-top: 1em;
 }
+
 .left-col .watch-video-cta img {
   margin-right: 0.5em;
 }
@@ -92,14 +103,17 @@ section {
 ul.features-list {
   margin: 0;
   padding-left: 0.1em;
+  display: -ms-grid;
   display: grid;
 }
+
 ul.features-list li {
   font-size: 1.1em;
   margin-bottom: 1em;
   margin-left: 2em;
   position: relative;
 }
+
 ul.features-list li:before {
   content: "";
   left: -2em;
@@ -119,6 +133,7 @@ ul.features-list li:before {
   background: var(--primary-color);
   color: white;
 }
+
 .testimonials-section li {
   background: #006bd6;
   text-align: center;
@@ -127,6 +142,7 @@ ul.features-list li:before {
   margin: 0 auto 5em;
   border-radius: 1em;
 }
+
 .testimonials-section li img {
   width: 5em;
   height: 5em;
@@ -151,7 +167,8 @@ textarea {
   margin-bottom: 1em;
   border-radius: 0.3em;
   border: 1px solid grey;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .send-message-cta {
@@ -187,9 +204,11 @@ nav {
   height: 100vh;
   padding: 1em;
 }
+
 nav ul.primary-nav {
   margin-top: 5em;
 }
+
 nav li a {
   color: white;
   text-decoration: none;
@@ -198,6 +217,7 @@ nav li a {
   font-size: 1.3em;
   text-align: right;
 }
+
 nav li a:hover {
   font-weight: bold;
 }
@@ -206,4 +226,5 @@ nav li a:hover {
   float: right;
   margin: 0.5em;
   cursor: pointer;
-}/*# sourceMappingURL=main.css.map */
+}
+/*# sourceMappingURL=main.css.map */
